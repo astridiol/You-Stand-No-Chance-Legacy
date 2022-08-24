@@ -1,0 +1,17 @@
+{
+  "item.yourbad.woodscythe": "Wooden Scythe",
+  "item.yourbad.stonescythe": "Stone Scythe",
+  "item.yourbad.ironscythe": "Iron Scythe",
+  "item.yourbad.goldscythe": "Gold Scythe",
+  "item.yourbad.diamondscythe": "Diamond Scythe",
+  "item.yourbad.netheritescythe": "Netherite Scythe",
+  "item.yourbad.titanium": "Titanium Ingot",
+  "block.yourbad.titanium_ore": "Titanium Ore",
+  "item.yourbad.titaniumhelmet": "Titanium Helmet",
+  "item.yourbad.titaniumchestplate": "Titanium Chestplate",
+  "item.yourbad.titaniumleggings": "Titanium Leggings",
+  "item.yourbad.titaniumboots": "Titanium Boots",
+  "itemGroup.yourbad.scythes": "You Stand No Chance",
+  "itemGroup.yourbad.scytheore": "Ores (IN DEVELOPMENT)",
+  "item.yourbad.hammer": "Iron Hammer"
+}
