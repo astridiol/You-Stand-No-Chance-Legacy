@@ -23,14 +23,14 @@ public class ModItems {
 
     public static final Item NETHERITESCYTHE = registerItem("netheritescythe", new ModAxeItem(ModToolMaterials.NETHERITE, 13, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
-    public static final Item TITAINIUMHELMET = registerItem("titaniumhelmet", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+   // public static final Item TITAINIUMHELMET = registerItem("titaniumhelmet", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
-    public static final Item TITAINIUMCHESTPLATE = registerItem("titaniumchestplate", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+   // public static final Item TITAINIUMCHESTPLATE = registerItem("titaniumchestplate", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
-    public static final Item TITAINIUMLEGGINGS = registerItem("titaniumleggings", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+  //  public static final Item TITAINIUMLEGGINGS = registerItem("titaniumleggings", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
-    public static final Item TITAINIUMBOOTS = registerItem("titaniumboots", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
-    public static final Item TITANIUM = registerItem("titanium", new Item(new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+  //  public static final Item TITAINIUMBOOTS = registerItem("titaniumboots", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+  //  public static final Item TITANIUM = registerItem("titanium", new Item(new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
 
 
