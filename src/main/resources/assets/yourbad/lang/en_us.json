@@ -5,7 +5,7 @@
   "item.yourbad.goldscythe": "Gold Scythe",
   "item.yourbad.diamondscythe": "Diamond Scythe",
   "item.yourbad.netheritescythe": "Netherite Scythe",
-  "item.yourbad.titanium": "Titanium Ingot",
+  "item.yourbad.titanium_ingot": "Titanium Ingot",
   "block.yourbad.titanium_ore": "Titanium Ore",
   "item.yourbad.titaniumhelmet": "Titanium Helmet",
   "item.yourbad.titaniumchestplate": "Titanium Chestplate",
@@ -13,5 +13,7 @@
   "item.yourbad.titaniumboots": "Titanium Boots",
   "itemGroup.yourbad.scythes": "You Stand No Chance",
   "itemGroup.yourbad.scytheore": "Ores (IN DEVELOPMENT)",
-  "item.yourbad.hammer": "Iron Hammer"
+  "itemGroup.yourbad.titaniumaxe": "Titanium Axe",
+  "itemGroup.yourbad.titanium_scythe": "Titanium Scythe"
+
 }
