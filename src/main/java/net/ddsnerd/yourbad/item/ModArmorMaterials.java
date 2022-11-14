@@ -1,3 +1,5 @@
+//This Area Is For ArmorMaterials
+
 package net.ddsnerd.yourbad.item;
 
 import net.minecraft.entity.EquipmentSlot;
@@ -11,8 +13,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
-    TITANIUM("titanium", 47, new int[]{5, 7, 10, 5}, 30,
-            SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0f, 0.0f, () -> Ingredient.ofItems(ModItems.TITANIUM));
+  TITANIUM("titanium", 47, new int[]{5, 7, 10, 5}, 30, SoundEvents.ITEM_ARMOR_EQUIP_NETHERITE, 0.0f, 0.0f, () -> Ingredient.ofItems(ModItems.TITANIUM));
 
     private static final int[] BASE_DURABILITY;
     private final String name;

@@ -4,13 +4,13 @@
   "version": "${version}",
 
   "name": "You Stand No Chance 1.19",
-  "description": "This Is a Scythe Mod That Adds Ores ",
+  "description": "This Is a Scythe Mod Thats It. Nothing More.",
   "authors": [
     "2DSNerd"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/you_stand_no_chance",
-    "sources": "https://www.curseforge.com/minecraft/mc-mods/you-stand-no-chance-fabric"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/you-stand-no-chance-fabric",
+    "sources": "https://github.com/2DSNerd/You-Stand-No-Chance-Fabric"
   },
 
   "license": "CC0-1.0",
@@ -27,12 +27,12 @@
   ],
 
   "depends": {
-    "fabricloader": ">=0.14.6",
+    "fabricloader": ">=0.14.9",
     "fabric": "*",
     "minecraft": "~1.19",
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "Extra Enchantments By: Thrillz"
+    "another-mod": "Extra Enchantments Reworked By: 2DSNerd"
   }
 }

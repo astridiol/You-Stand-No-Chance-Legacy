@@ -1,5 +1,7 @@
+//Adds All The Items Into The Game
 package net.ddsnerd.yourbad.item;
 
+import net.ddsnerd.yourbad.block.ModBlocks;
 import net.ddsnerd.yourbad.item.custom.ModAxeItem;
 import net.ddsnerd.yourbad.yourbad;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
@@ -10,7 +12,8 @@ import net.minecraft.util.Identifier;
 
 
 public class ModItems {
-    public static final Item WOODSCYTHE = registerItem("woodscythe", new ModAxeItem(ModToolMaterials.WOOD, 3, 0.005f,  new FabricItemSettings().group(ItemGroup.MISC)));
+    //The Sythes
+    public static final Item WOODSCYTHE = registerItem("woodscythe", new ModAxeItem(ModToolMaterials.WOOD, 3, 0.005f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
     public static final Item STONESCYTHE = registerItem("stonescythe", new ModAxeItem(ModToolMaterials.STONE, 4, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
@@ -19,17 +22,20 @@ public class ModItems {
     public static final Item GOLDSCYTHE = registerItem("goldscythe", new ModAxeItem(ModToolMaterials.GOLD, 8, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
     public static final Item DIAMONDSCYTHE = registerItem("diamondscythe", new ModAxeItem(ModToolMaterials.DIAMOND, 12, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
-
     public static final Item NETHERITESCYTHE = registerItem("netheritescythe", new ModAxeItem(ModToolMaterials.NETHERITE, 13, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
+    //Titanium Armor
     public static final Item TITAINIUMHELMET = registerItem("titaniumhelmet", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.HEAD, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
     public static final Item TITAINIUMCHESTPLATE = registerItem("titaniumchestplate", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.CHEST, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
-    public static final Item TITAINIUMLEGGINGS = registerItem("titaniumleggings", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+   public static final Item TITAINIUMLEGGINGS = registerItem("titaniumleggings", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.LEGS, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
-    public static final Item TITAINIUMBOOTS = registerItem("titaniumboots", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
-    public static final Item TITANIUM = registerItem("titanium", new Item(new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+   public static final Item TITAINIUMBOOTS = registerItem("titaniumboots", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+
+   public static final Item TITANIUM = registerItem("titanium", new Item(new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+
+   public static final Item TITANIUMORE = registerItem("titaniumore", new BlockItem(ModBlocks.TITANIUM_ORE, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
 
 
