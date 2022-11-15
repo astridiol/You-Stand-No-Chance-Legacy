@@ -14,6 +14,6 @@ public class ScytheMixin {
 	private void init(CallbackInfo info) {
 
 
-		yourbad.LOGGER.info("The Scythes Mod Is Working");
+		yourbad.LOGGER.info("You Stand No Chance Fabric Has Started Up");
 	}
 }
