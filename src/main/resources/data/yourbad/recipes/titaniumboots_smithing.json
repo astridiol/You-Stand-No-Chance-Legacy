@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing",
   "addition": {
-    "item": "yourbad:titanium"
+    "item": "yourbad:titanium_ingot"
   },
   "base": {
     "item": "minecraft:netherite_boots"
