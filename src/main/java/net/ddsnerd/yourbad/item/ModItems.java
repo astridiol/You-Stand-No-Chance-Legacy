@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 
 public class ModItems {
-    //The Sythes
+    //The Scythes
     public static final Item WOODSCYTHE = registerItem("woodscythe", new ModAxeItem(ModToolMaterials.WOOD, 3, 0.005f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
     public static final Item STONESCYTHE = registerItem("stonescythe", new ModAxeItem(ModToolMaterials.STONE, 4, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
@@ -22,6 +22,7 @@ public class ModItems {
     public static final Item GOLDSCYTHE = registerItem("goldscythe", new ModAxeItem(ModToolMaterials.GOLD, 8, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
     public static final Item DIAMONDSCYTHE = registerItem("diamondscythe", new ModAxeItem(ModToolMaterials.DIAMOND, 12, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+
     public static final Item NETHERITESCYTHE = registerItem("netheritescythe", new ModAxeItem(ModToolMaterials.NETHERITE, 13, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
     //Titanium Armor
@@ -34,8 +35,6 @@ public class ModItems {
    public static final Item TITAINIUMBOOTS = registerItem("titaniumboots", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
    public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
-
-   public static final Item TITANIUMORE = registerItem("titanium_ore", new BlockItem(ModBlocks.TITANIUM_ORE, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
     public static final Item TITANIUM_SCYTHE = registerItem("titanium_scythe", new ModAxeItem(ModToolMaterials.NETHERITE, 15, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
