@@ -36,7 +36,7 @@ public class ModItems {
 
    public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
-    public static final Item TITANIUMSCYTHE = registerItem("titaniumscythe", new ModAxeItem(ModToolMaterials.NETHERITE, 14, 4f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
+    public static final Item TITANIUMSCYTHE = registerItem("titaniumscythe", new ModAxeItem(ModToolMaterials.NETHERITE, 14, 4f,  new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
     public static final Item TITANIUM_NUGGET = registerItem("titanium_nugget", new Item(new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
