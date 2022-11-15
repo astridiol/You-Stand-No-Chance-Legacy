@@ -1,3 +1,6 @@
 {
-  "parent": "yourbad:block/titanium_ore"
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "yourbad:block/titaniumore"
+  }
 }

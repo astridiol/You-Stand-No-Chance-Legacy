@@ -16,8 +16,8 @@ public enum ModToolMaterials implements ToolMaterial {
     GOLD(MiningLevels.WOOD, 32, 0.0f, 0.0f, 22, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
     DIAMOND(MiningLevels.DIAMOND, 1561, 0.0f, 0.0f, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
     NETHERITE(MiningLevels.NETHERITE, 2031, 0.0f, 0.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    TITANIUMAXE(MiningLevels.NETHERITE, 2033, 0.0f, 0.0f, 15, () -> Ingredient.ofItems(Items.TITANIUM_INGOT)),
-    TITANIUMSCYTHE(MiningLevels.NETHERITE, 2033, 0.0f, 0.0f, 15, () -> Ingredient.ofItems(Items.TITANIUM_INGOT));
+    TITANIUMAXE(MiningLevels.NETHERITE, 2033, 0.0f, 1.0f, 15, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT)),
+    TITANIUMSCYTHE(MiningLevels.NETHERITE, 2033, 0.0f, 2.0f, 15, () -> Ingredient.ofItems(ModItems.TITANIUM_INGOT));
 
 
     private final int miningLevel;

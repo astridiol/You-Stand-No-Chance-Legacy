@@ -33,10 +33,11 @@ public class ModItems {
 
    public static final Item TITAINIUMBOOTS = registerItem("titaniumboots", new ArmorItem(ModArmorMaterials.TITANIUM, EquipmentSlot.FEET, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
-   public static final Item TITANIUM = registerItem("titanium", new Item(new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+   public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
-   public static final Item TITANIUMORE = registerItem("titaniumore", new BlockItem(ModBlocks.TITANIUM_ORE, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
+   public static final Item TITANIUMORE = registerItem("titanium_ore", new BlockItem(ModBlocks.TITANIUM_ORE, new FabricItemSettings().group(ModItemGroup.SCYTHESORE)));
 
+    public static final Item TITANIUM_SCYTHE = registerItem("titanium_scythe", new ModAxeItem(ModToolMaterials.NETHERITE, 15, 0f,  new FabricItemSettings().group(ModItemGroup.SCYTHES)));
 
 
     private static Item registerItem(String name, Item item) {
