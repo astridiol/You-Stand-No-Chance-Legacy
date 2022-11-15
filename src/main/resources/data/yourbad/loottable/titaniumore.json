@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "yourbad:titaniumore"
+              "name": "yourbad:titanium_ore"
             },
             {
               "type": "minecraft:item",
@@ -38,7 +38,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "yourbad:titanium"
+              "name": "yourbad:titanium_nugget"
             }
           ]
         }
