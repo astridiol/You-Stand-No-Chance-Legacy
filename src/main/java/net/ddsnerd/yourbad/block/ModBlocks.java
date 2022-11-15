@@ -16,7 +16,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block TITANIUM_ORE = registerBlock("titanium_ore", new Block(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroup.SCYTHESORE);
+    public static final Block END_TITANIUM_ORE = registerBlock("end_titanium_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.SCYTHESORE);
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);

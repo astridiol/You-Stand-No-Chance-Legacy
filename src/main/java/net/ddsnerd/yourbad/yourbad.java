@@ -17,6 +17,8 @@ public class yourbad implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 
