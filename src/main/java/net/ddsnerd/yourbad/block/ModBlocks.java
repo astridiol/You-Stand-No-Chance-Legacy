@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.block.OreBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -16,7 +17,8 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block END_TITANIUM_ORE = registerBlock("end_titanium_ore", new Block(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.SCYTHESORE);
+    public static final Block END_TITANIUM_ORE = registerBlock("end_titanium_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE).strength(4.5f).requiresTool()), ModItemGroup.SCYTHESORE);
 
     private static Block registerBlock(String name, Block block, ItemGroup group){
         registerBlockItem(name, block, group);
