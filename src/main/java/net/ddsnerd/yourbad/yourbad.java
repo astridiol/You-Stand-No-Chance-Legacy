@@ -2,7 +2,9 @@ package net.ddsnerd.yourbad;
 
 import net.ddsnerd.yourbad.block.ModBlocks;
 import net.ddsnerd.yourbad.item.ModItems;
+import net.ddsnerd.yourbad.world.gen.ModOreGeneration;
 import net.fabricmc.api.ModInitializer;
+import net.ddsnerd.yourbad.world.feature.ModConfiguredFeatures;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import software.bernie.geckolib3.renderers.geo.GeoItemRenderer;
@@ -18,6 +20,7 @@ public class yourbad implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModConfiguredFeatures.registerConfiguredFeatures();
+		ModOreGeneration.generateOres();
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
