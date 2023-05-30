@@ -1,12 +1,12 @@
 //What Material And What Damage And What Level Of Duribility And Attack Speed
 package net.ddsnerd.yourbad.item;
 
+import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
-import net.fabricmc.yarn.constants.MiningLevels;
 import net.minecraft.recipe.Ingredient;
+import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Lazy;
-import net.minecraft.tag.ItemTags;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
