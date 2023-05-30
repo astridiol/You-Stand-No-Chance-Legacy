@@ -1,30 +1,21 @@
 package net.ddsnerd.yourbad;
 
 import net.ddsnerd.yourbad.block.ModBlocks;
+import net.ddsnerd.yourbad.item.ModItemGroup;
 import net.ddsnerd.yourbad.item.ModItems;
-import net.ddsnerd.yourbad.world.gen.ModOreGeneration;
 import net.fabricmc.api.ModInitializer;
-import net.ddsnerd.yourbad.world.feature.ModConfiguredFeatures;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import software.bernie.geckolib3.renderers.geo.GeoItemRenderer;
 
+// Very important comment
 public class yourbad implements ModInitializer {
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final String MOD_ID = "yourbad";
-
-	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final Logger LOGGER = LoggerFactory.getLogger("yourbad");
 
 	@Override
 	public void onInitialize() {
-		ModConfiguredFeatures.registerConfiguredFeatures();
-		ModOreGeneration.generateOres();
-
+		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
-
 	}
 }
