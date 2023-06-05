@@ -12,17 +12,17 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item WOODSCYTHE = registerItem("woodscythe", new ModAxeItem(ModToolMaterials.WOOD, 3, 0.005f,  new FabricItemSettings()));
+    public static final Item WOODSCYTHE = registerItem("woodscythe", new ModAxeItem(ModToolMaterials.WOOD, 3, 10f,  new FabricItemSettings()));
 
-    public static final Item STONESCYTHE = registerItem("stonescythe", new ModAxeItem(ModToolMaterials.STONE, 4, 0f,  new FabricItemSettings()));
+    public static final Item STONESCYTHE = registerItem("stonescythe", new ModAxeItem(ModToolMaterials.STONE, 4, 10f,  new FabricItemSettings()));
 
-    public static final Item IRONSCYTHE = registerItem("ironscythe", new ModAxeItem(ModToolMaterials.IRON, 10, 0f,  new FabricItemSettings()));
+    public static final Item IRONSCYTHE = registerItem("ironscythe", new ModAxeItem(ModToolMaterials.IRON, 10, 10f,  new FabricItemSettings()));
 
-    public static final Item GOLDSCYTHE = registerItem("goldscythe", new ModAxeItem(ModToolMaterials.GOLD, 8, 0f,  new FabricItemSettings()));
+    public static final Item GOLDSCYTHE = registerItem("goldscythe", new ModAxeItem(ModToolMaterials.GOLD, 8, 10f,  new FabricItemSettings()));
 
-    public static final Item DIAMONDSCYTHE = registerItem("diamondscythe", new ModAxeItem(ModToolMaterials.DIAMOND, 12, 0f,  new FabricItemSettings()));
+    public static final Item DIAMONDSCYTHE = registerItem("diamondscythe", new ModAxeItem(ModToolMaterials.DIAMOND, 12, 10f,  new FabricItemSettings()));
 
-    public static final Item NETHERITESCYTHE = registerItem("netheritescythe", new ModAxeItem(ModToolMaterials.NETHERITE, 13, 0f,  new FabricItemSettings()));
+    public static final Item NETHERITESCYTHE = registerItem("netheritescythe", new ModAxeItem(ModToolMaterials.NETHERITE, 13, 10f,  new FabricItemSettings()));
 
     //Titanium Items
     public static final Item TITAINIUMHELMET = registerItem("titaniumhelmet", new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -35,7 +35,7 @@ public class ModItems {
 
     public static final Item TITANIUM_INGOT = registerItem("titanium_ingot", new Item(new FabricItemSettings()));
 
-    public static final Item TITANIUMSCYTHE = registerItem("titaniumscythe", new ModAxeItem(ModToolMaterials.NETHERITE, 14, 4f,  new FabricItemSettings()));
+    public static final Item TITANIUMSCYTHE = registerItem("titaniumscythe", new ModAxeItem(ModToolMaterials.NETHERITE, 14, 10f,  new FabricItemSettings()));
 
     public static final Item TITANIUM_NUGGET = registerItem("titanium_nugget", new Item(new FabricItemSettings()));
 
