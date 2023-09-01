@@ -12,17 +12,17 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item WOODSCYTHE = registerItem("woodscythe", new ModAxeItem(ModToolMaterials.WOOD, 3, 10f,  new FabricItemSettings()));
+    public static final Item WOODSCYTHE = registerItem("woodscythe", new ModAxeItem(ModToolMaterials.WOOD, 3, -4f,  new FabricItemSettings()));
 
-    public static final Item STONESCYTHE = registerItem("stonescythe", new ModAxeItem(ModToolMaterials.STONE, 4, 10f,  new FabricItemSettings()));
+    public static final Item STONESCYTHE = registerItem("stonescythe", new ModAxeItem(ModToolMaterials.STONE, 4, -4f,  new FabricItemSettings()));
 
-    public static final Item IRONSCYTHE = registerItem("ironscythe", new ModAxeItem(ModToolMaterials.IRON, 10, 10f,  new FabricItemSettings()));
+    public static final Item IRONSCYTHE = registerItem("ironscythe", new ModAxeItem(ModToolMaterials.IRON, 10, -4f,  new FabricItemSettings()));
 
-    public static final Item GOLDSCYTHE = registerItem("goldscythe", new ModAxeItem(ModToolMaterials.GOLD, 8, 10f,  new FabricItemSettings()));
+    public static final Item GOLDSCYTHE = registerItem("goldscythe", new ModAxeItem(ModToolMaterials.GOLD, 8, -4f,  new FabricItemSettings()));
 
-    public static final Item DIAMONDSCYTHE = registerItem("diamondscythe", new ModAxeItem(ModToolMaterials.DIAMOND, 12, 10f,  new FabricItemSettings()));
+    public static final Item DIAMONDSCYTHE = registerItem("diamondscythe", new ModAxeItem(ModToolMaterials.DIAMOND, 12, -4f,  new FabricItemSettings()));
 
-    public static final Item NETHERITESCYTHE = registerItem("netheritescythe", new ModAxeItem(ModToolMaterials.NETHERITE, 13, 10f,  new FabricItemSettings()));
+    public static final Item NETHERITESCYTHE = registerItem("netheritescythe", new ModAxeItem(ModToolMaterials.NETHERITE, 13, -4f,  new FabricItemSettings()));
 
     //Titanium Items
     public static final Item TITAINIUMHELMET = registerItem("titaniumhelmet", new ArmorItem(ModArmorMaterials.TITANIUM, ArmorItem.Type.HELMET, new FabricItemSettings()));
@@ -43,28 +43,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(yourbad.MOD_ID, name), item);
     }
 
-    public static void addItemsToItemGroup() {
-        addToItemGroup(ModItemGroup.SCYTHES, WOODSCYTHE);
-        addToItemGroup(ModItemGroup.SCYTHES, STONESCYTHE);
-        addToItemGroup(ModItemGroup.SCYTHES, IRONSCYTHE);
-        addToItemGroup(ModItemGroup.SCYTHES, DIAMONDSCYTHE);
-        addToItemGroup(ModItemGroup.SCYTHES, NETHERITESCYTHE);
-        addToItemGroup(ModItemGroup.SCYTHES, TITANIUMSCYTHE);
-
-        addToItemGroup(ModItemGroup.SCYTHESORE, TITANIUMSCYTHE);
-        addToItemGroup(ModItemGroup.SCYTHESORE, TITANIUM_INGOT);
-        addToItemGroup(ModItemGroup.SCYTHESORE, TITAINIUMHELMET);
-        addToItemGroup(ModItemGroup.SCYTHESORE, TITAINIUMCHESTPLATE);
-        addToItemGroup(ModItemGroup.SCYTHESORE, TITAINIUMLEGGINGS);
-        addToItemGroup(ModItemGroup.SCYTHESORE, TITAINIUMBOOTS);
-    }
-
-    private static void addToItemGroup(ItemGroup group, Item item) {
-        ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));
-    }
     public static void registerModItems() {
         yourbad.LOGGER.info("Registering Mod Items for " + yourbad.MOD_ID);
-
-        addItemsToItemGroup();
     }
 }
