@@ -1,7 +1,7 @@
-package net.ddsnerd.yourbad.mixin;
+package net.astridiol.ysncf.mixin;
 
 
-import net.ddsnerd.yourbad.yourbad;
+import net.astridiol.ysncf.ysncf;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -14,6 +14,6 @@ public class ScytheMixin {
 	private void init(CallbackInfo info) {
 
 
-		yourbad.LOGGER.info("You Stand No Chance Fabric Has Started Up");
+		yourbad.LOGGER.info("You Stand No Chance Has Started Up");
 	}
 }

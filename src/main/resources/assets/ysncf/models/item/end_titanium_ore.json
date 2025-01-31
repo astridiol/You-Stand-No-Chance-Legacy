@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "yourbad:block/end_titanium_ore"
+    "all": "ysncf:block/end_titanium_ore"
   }
 }

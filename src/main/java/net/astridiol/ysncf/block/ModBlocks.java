@@ -1,5 +1,5 @@
-import net.ddsnerd.yourbad.item.ModItemGroup;
-import net.ddsnerd.yourbad.yourbad;
+import net.astridiol.ysncf.item.ModItemGroup;
+import net.astridiol.ysncf.ysncf;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -19,16 +19,16 @@ public class ModBlocks {
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
-        return Registry.register(Registries.BLOCK, new Identifier(yourbad.MOD_ID, name), block);
+        return Registry.register(Registries.BLOCK, new Identifier(ysncf.MOD_ID, name), block);
     }
 
     private static Item registerBlockItem(String name, Block block) {
-        Item item = Registry.register(Registries.ITEM, new Identifier(yourbad.MOD_ID, name),
+        Item item = Registry.register(Registries.ITEM, new Identifier(ysncf.MOD_ID, name),
                 new BlockItem(block, new FabricItemSettings()));
         return item;
     }
 
     public static void registerModBlocks() {
-        yourbad.LOGGER.info("Registering ModBlocks for " + yourbad.MOD_ID);
+        ysncf.LOGGER.info("Registering ModBlocks for " + ysncf.MOD_ID);
     }
 }

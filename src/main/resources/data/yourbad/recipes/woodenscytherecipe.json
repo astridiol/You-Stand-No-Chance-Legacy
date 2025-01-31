@@ -11,9 +11,9 @@
   "pattern": [
     "XXX",
     "  #",
-    "  #"
+    "#  "
   ],
   "result": {
-    "item": "yourbad:woodscythe"
+    "item": "ysncf:woodscythe"
   }
 }
