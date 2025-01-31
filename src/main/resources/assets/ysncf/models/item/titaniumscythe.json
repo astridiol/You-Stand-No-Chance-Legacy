@@ -24,6 +24,6 @@
   
     "parent": "item/handheld",
     "textures": {
-      "layer0": "yourbad:item/titaniumscythe"
+      "layer0": "ysncf:item/titaniumscythe"
     }
   }

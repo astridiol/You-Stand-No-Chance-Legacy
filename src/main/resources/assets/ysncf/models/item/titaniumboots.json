@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "yourbad:item/titanium_boots"
+    "layer0": "ysncf:item/titanium_boots"
   }
 }

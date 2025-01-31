@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "yourbad:item/titanium"
+    "layer0": "ysncf:item/titanium"
   }
 }

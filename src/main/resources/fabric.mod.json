@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/yourbad/logo.png",
+  "icon": "assets/ysncf/logo.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.ddsnerd.yourbad.yourbad"
+      "net.astridiol.ysncf.ysncf"
     ]
   },
   "mixins": [
-    "yourbad.mixins.json"
+    "ysncf.mixins.json"
   ],
 
   "depends": {
@@ -31,8 +31,5 @@
     "fabric": "*",
     "minecraft": ">=1.19",
     "java": ">=17"
-  },
-  "suggests": {
-    "another-mod": "Extra Enchantments Reworked By: 2DSNerd"
   }
 }
